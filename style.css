@@ -47,8 +47,8 @@ img {
     text-align: center;
     height: 120px;
     width: 120px;
-    border-radius: 50%;
     border: 3px solid black;
+    margin-bottom: 2px;
 }
 
 .male {
@@ -57,7 +57,7 @@ img {
 }
 
 .female {
-    border-color: pink;
-    background-color: pink;
+    border-color: hotpink;
+    background-color: hotpink;
     color: #333;
 }
