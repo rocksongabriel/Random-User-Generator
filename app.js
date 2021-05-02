@@ -1,11 +1,11 @@
 const app = Vue.createApp({
     data() {
         return {
-            firstName: "Gabriel",
-            lastName: "Rockson",
-            email: "thegabrielrockson@gmail.com",
-            gender: "male",
-            picture: './pic.jpg',
+            firstName: "",
+            lastName: "",
+            email: "",
+            gender: "",
+            picture: '',
         }
     },
     methods: {
@@ -20,6 +20,9 @@ const app = Vue.createApp({
             this.gender = results[0].gender
             this.picture = results[0].picture.large
         }
+    },
+    created() {
+        this.getUser();
     }
 })
 
