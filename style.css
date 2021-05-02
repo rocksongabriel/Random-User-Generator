@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', serif;
+}
+
+
+#app {
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+    color: black;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    margin: 10px 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+img {
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.male {
+    border-color: steelblue;
+    background-color: steelblue;
+}
+
+.female {
+    border-color: pink;
+    background-color: pink;
+    color: #333;
+}
